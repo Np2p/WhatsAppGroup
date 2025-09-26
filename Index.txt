@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WhatsApp Group Invitation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      height: 100vh;
+      width: 100vw;
+      box-sizing: border-box;
+      font-family: "Poppins", Arial, sans-serif;
+      background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      background: rgba(255,255,255,0.96);
+      border-radius: 18px;
+      box-shadow: 0 8px 32px rgba(16,40,44,0.15);
+      padding: 40px 32px;
+      min-width: 320px;
+      max-width: 380px;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .whatsapp-logo {
+      width: 62px;
+      margin-bottom: 18px;
+      margin-top: 6px;
+    }
+    .group-img {
+      width: 86px;
+      height: 86px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 17px;
+      border: 3px solid #25d366;
+      box-shadow: 0 0 8px rgba(18,140,126,0.13);
+    }
+    .group-name {
+      font-size: 1.6em;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #075e54;
+      letter-spacing: 1px;
+      font-family: "Poppins", Arial, sans-serif;
+    }
+    .members-count {
+      color: #333;
+      margin-bottom: 18px;
+      font-size: 1em;
+      font-weight: 500;
+      font-family: "Poppins", Arial, sans-serif;
+    }
+    .welcome-msg {
+      font-size: 1.11em;
+      margin-bottom: 26px;
+      color: #222;
+      line-height: 1.7;
+      font-family: "Poppins", Arial, sans-serif;
+    }
+    .join-btn {
+      background: #25d366;
+      color: #fff;
+      font-size: 1.15em;
+      border: none;
+      border-radius: 24px;
+      padding: 14px 36px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(37,211,102,0.10);
+      transition: background 0.2s;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-family: "Poppins", Arial, sans-serif;
+    }
+    .join-btn:hover {
+      background: #128c7e;
+    }
+    @media (max-width: 500px) {
+      .container {
+        padding: 25px 7vw;
+        max-width: 98vw;
+      }
+      .group-name {
+        font-size: 1.17em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="whatsapp-logo" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Whatsapp Logo">
+    <img class="group-img" src="https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2016/06/young_couple_unhappy_main.jpg?quality=86&strip=all" alt="Group Image">
+    <div class="group-name">Dating and Friendship group</div>
+    <div class="members-count">Members: 723</div>
+    <div class="welcome-msg">You are invited to join our WhatsApp group! Join us to Chat with us.</div>
+    <button class="join-btn" onclick="window.location.href='https://applocked.org/cl/i/pq216n'">Join Group</button>
+  </div>
+</body>
+</html>
